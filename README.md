@@ -112,8 +112,23 @@ Once running, the services are available at:
 
 | Service    | URL                                                              |
 |------------|------------------------------------------------------------------|
-| Faceplate  | [http://localhost:9000](http://localhost:9000)                   |                 |
+| Faceplate Studio | [http://localhost:9000/fp/studio](http://localhost:9000/fp/studio)                   |                 |
+| Faceplate Runtime  | [http://localhost:9000/fp/runtime](http://localhost:9000/fp/runtime)                   |                 |
 | OpenClaw   | [http://localhost:18789](http://localhost:18789)                 |
+
+---
+
+**Faceplate default credentials**
+
+Username
+```bash
+system
+```
+
+Password
+```bash
+111111
+```
 
 ---
 
@@ -196,6 +211,10 @@ openclaw devices approve Request_ID
 
 Now you can use Openclaw UI
 
+**Faceplate. Openclaw UI requires pairing**
+
+When Openclaw UI Token require pairing, you need to approve your session. 
+
 ---
 
 ## Summary
@@ -206,3 +225,7 @@ This stack brings up two interconnected services:
 - **`openclaw`** — AI agent system
 
 They are linked through shared Docker volumes on the host filesystem.
+
+## Faceplate Docs
+> Faceplate docs and information you can get here:
+>https://github.com/faceplate-docs/faceplate/tree/dev/docs/en
