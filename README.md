@@ -224,8 +224,8 @@ This stack brings up two interconnected services:
 - **`faceplate`** — backend, UI, and database
 - **`openclaw`** — AI agent system
 
-They are linked through shared Docker volumes on the host filesystem.
+---
 
 ## Faceplate Docs
-> Faceplate docs and information you can get here:
->https://github.com/faceplate-docs/faceplate/tree/dev/docs/en
+Faceplate docs and information you can get here:
+https://github.com/faceplate-docs/faceplate/tree/dev/docs/en
