@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+
+  faceplate:
+    container_name: ${FACEPLATE_CONTAINER_NAME}
+    image: fpcloud/faceplate:v4.0.7.design
+    command: /opt/faceplate/bin/faceplate console
+    stdin_open: true
+    tty: true
+    ulimits:
+      nofile:
+        soft: 200000
+        hard: 200000
+    ports:
+      - "${FACEPLATE_PORT_9000}:9000"
+      - "${FACEPLATE_PORT_8000}:8000"
+      - "${FACEPLATE_PORT_7000}:7000"
+
+  openclaw:
+    container_name: ${OPENCLAW_CONTAINER_NAME}
+    image: kirillfp/fp_openclaw:1.0
+
+    ports:
+      - "${OPENCLAW_PORT}:18789"
+
+    volumes:
+      - ${OPENCLAW_CONFIG_PATH}:/home/node/.openclaw
+      - ${OPENCLAW_WORKSPACE_PATH}:/home/node/.openclaw/workspace
+
+    restart: unless-stopped
