@@ -1,9 +1,9 @@
 # Product licenses
 
-## Faceplate
+## Faceplate Non Commertional
 
 Faceplate product use conditions and license see here:
-https://github.com/faceplate-docs/faceplate/tree/dev/docs/en
+https://github.com/faceplatekirill/faceplate_stack/blob/main/licenses/faceplate/noncommercial.md
 
 ##  Openclaw
 
