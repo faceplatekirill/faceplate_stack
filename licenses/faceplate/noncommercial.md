@@ -32,7 +32,7 @@ This license does not grant you the right to sublicense the Software. Your paten
 
 If you violate these terms, your licenses terminate automatically. However, for a first-time violation, your rights may be reinstated if you cease the violation and remedy the effects within 30 days of discovery or notice.
 
-## NNo Warranty and Liability
+## No Warranty and Liability
 
 THE SOFTWARE IS PROVIDED "AS IS." TO THE FULL EXTENT PERMITTED BY LAW, THE LICENSOR DISCLAIMS ALL WARRANTIES AND SHALL NOT BE LIABLE FOR ANY DAMAGES, CLAIMS, OR LOSSES ARISING FROM THE USE OF THE SOFTWARE OR THESE TERMS.
 
