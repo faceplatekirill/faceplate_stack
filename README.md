@@ -53,13 +53,14 @@ mkdir -p faceplate/logs
 > - `openclaw/config` — OpenClaw configuration files
 > - `openclaw/workspace` — working environment (agents, memory, tools)
 
+
 ---
 
 ## Step 3. Docker Compose
 
 The `docker-compose.yml` file is already configured to bring up two services:
 
-### 🔹 Faceplate
+### Faceplate
 
 - Main application (backend + UI + DB)
 - Exposed ports:
@@ -70,7 +71,7 @@ The `docker-compose.yml` file is already configured to bring up two services:
   - Database → `faceplate/DB`
   - Logs → `faceplate/logs`
 
-### 🔹 OpenClaw
+### OpenClaw
 
 - AI / agent system
 - Exposed port:
@@ -80,6 +81,7 @@ The `docker-compose.yml` file is already configured to bring up two services:
   - Workspace → `openclaw/workspace`
 
 ---
+
 
 
 File `.env` contains additional information for Docker compose
@@ -148,6 +150,9 @@ The `openclaw/workspace` directory contains the stateful part of the system:
 | `KNOWLEDGE_BASE`   | General knowledge base               |
 
 > **Do not delete this folder on restart** — it holds the agent's persistent state.
+
+## How to configure the Openclaw
+See here the right Openclaw x Faceplate configuration process https://github.com/faceplatekirill/fp_openclaw_configs
 
 ---
 
