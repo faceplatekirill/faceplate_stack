@@ -231,6 +231,11 @@ This stack brings up two interconnected services:
 
 ---
 
+## Next step
+You currently have an empty Faceplate project. You can fill the project with SCADA test data using these instructions:
+https://github.com/faceplatekirill/fp_demo_project_light
+
 ## Faceplate Docs
 Faceplate docs and information you can get here:
 https://github.com/faceplate-docs/faceplate/tree/dev/docs/en
+
